@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Feed | Instaclone</title>
+        <title>image-detail | Instaclone</title>
         <meta charset="UTF-8">
         <meta description="Instaclone login page">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- gh pages comment -->
     </head>
     <body>
         <nav class="navigation">
@@ -29,44 +30,55 @@
                 </a>
             </div>
         </nav>
-        <main id="feed">
-            <article class="photo">
-                <header class="photo__header">
-                    <img src="images/avatar.jpg" alt="martinacordioli" class="photo__avatar">
-                    <div class="photo__info">
-                        <span class="photo__author">martinacordioli</span>
-                        <span class="photo__location">Dire Dawa</span>
-                    </div>
-                </header>
-                <img src="images/feedPhoto.jpg" class="photo__image" />
-                <div class="photo__main">
-                    <div class="photo__actions">
-                        <i class="fa fa-heart-o fa-2x"></i>
-                        <i class="fa fa-comment-o fa-2x"></i>
-                    </div>
-                    <span class="photo__likes">2,990 likes</span>
-                    <ul class="photo__comments">
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> omg this is great.
-                        </li>
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> omg this is great.
-                        </li>
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> omg this is great.
-                        </li>
-                        <li class="photo__comment">
-                            <span class="photo__comment-author">serranoarevalo</span> omg this is great.
-                        </li>
-                    </ul>
-                    <span class="photo__date">13 hours ago</span>
-                    <div class="photo__add-comment-container">
-                        <textarea class="photo__add-comment" name="comment" placeholder="Add a comment...">
-                        </textarea>
-                        <i class="fa fa-ellipsis-h"></i>
-                    </div>
+        <main class="image-detail">
+            <img src="images/feedPhoto.jpg">
+            <header class="">
+                <img src="images/avatar.jpg">
+                <div class="profile-bio">
+                    <span class="username">yira13
+                    </span>
+                    <span class="whatever">blahblah
+                    </span>
                 </div>
-            </article>
+            </header>
+            <div class="comments-container">
+                <ul class="image-detail__comments">
+                    <li class="image-detail__comment">
+                        <span class="comments-author">player1</span>
+                        hello
+                    </li>
+                    <li class="image-detail__comment">
+                        <span class="comments-author">player2</span>
+                        hello
+                    </li>
+                    <li class="image-detail__comment">
+                        <span class="comments-author">player3</span>
+                        hello
+                    </li>
+                    <li class="image-detail__comment">
+                        <span class="comments-author">player4</span>
+                        hello
+                    </li>
+                    <li class="image-detail__comment">
+                        <span class="comments-author">player5</span>
+                        hello
+                    </li>
+                </ul>
+            </div>
+            <div class="comments-container">
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-comment-o"></i>      
+            </div>
+            <div class="comments-container">
+                <span class="otherstats">482</span>
+                <span class="otherstats">likes</span>
+                
+            </div>
+            <div class="comments-container">
+                <textarea class="photo__add-comment" name=comment placeholder="Add a comment..."></textarea>
+                <i class="fa fa-ellipsis-h"></i>
+                
+            </div>
         </main>
         <footer>
             <nav class="footer__nav">
