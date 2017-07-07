@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-			<title>Feed | Instaclone</title>
+			<title>Explore | Instaclone</title>
 			<meta charset="UTF-8">
 			<meta description="Instaclone login page">
             <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -27,45 +27,22 @@
                 <a href="profile.html" class="navigation__link">
                     <i class="fa fa-user-o"></i>
                 </a>
-            </div>
         </nav>
         <main>
-        <main id="feed">
-            <article class="photo">
-                <header class="photo__header">
-                    <img src="images/avatar.jpg">
-                    <div class="photo__info"></div>
-                        <span class="photo__author">yira009</span>
-                        <span class="photo__location">Jeju Korea</span>
-                    </div>
-                </header>
-                <img src="images/feedPhoto.jpg">
-                <div class="photo__main">
-                    <div class="photo__actions">
-                        <i class="fa fa-heart-o fa-2x"></i>
-                        <i class="fa fa-comment-o fa-2x"></i>    
-                    </div>
-                    <span class="phto__likes">8,472 likes</span>
-                    <ul class="photo__comments">
-                        <li class="phto__comment">
-                            <span class="photo__comment-author">who</span> so nice 
-                        </li>
-                        <li class="phto__comment">
-                            <span class="photo__comment-author">gives</span> good
-                        </li>
-                        <li class="phto__comment">
-                            <span class="photo__comment-author">a</span> great
-                        </li>
-                        <li class="phto__comment">
-                            <span class="photo__comment-author">shit</span> awesome
-                        </li>
-                    </ul>
-                    <span class="phto__date">10 hours ago</span>
-                    <div class="photo__add-comment-container">
-                        <textarea class="photo__add-comment-container" name="comments" placeholder="Add a comment" ></textarea>
-                        <i class="fa fa-ellipsis-h"></i>
-                    </div>
-                </div>
+        <main class="explore">
+            <div class="people">
+                <ul class="people__list">
+                 <li class="people__user">
+                     <img src="images/avatar.jpg" class="people__avatar">
+                     <div class="people__username">
+                     <span class="userID">Freetime</span>
+                     <span class="location">Jeju</span>
+                     <input type="button" value="Follow Me">
+                 </li>   
+                </ul>
+                
+            </div>
+        </main>     
         <footer>
         	<nav class="footer__nav">
         		<ul class="footer__list">

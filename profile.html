@@ -1,29 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <title>Login | Instaclone</title>
+            <title>Profile | Instaclone</title>
             <meta charset="UTF-8">
             <meta description="Instaclone login page">
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
-        <main>
+        <nav class="navigation">
+            <div class="navigation__column">
+                <a href="feed.html">
+                    <img src="images/logo.png"/>
+                </a>
+            </div>
+            <div class="navigation__column">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navigation__column"></div>
+                <a href="explore.html" class="navigation__link">
+                    <i class="fa fa-compass"></i>
+                </a>
+                <a href="#" class="navigation__link">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+                <a href="profile" class="navigation__link">
+                    <i class="fa fa-user-o"></i>
+                </a>
+        </nav>
+        <main class="profile">
+        <header class="profile__header">
+        <div class="profile__headerpart1">
+            <img src="images/avatar.jpg" class="profile1">
+        </div>
+        <div class="profile__headerpart2">
+            <div class="profile__headerpart2--101">
+            <h2 class="profile__name">yira842</h2>
+            <a href="edit-profile.html" class="profile__button">Edit Profile</a>
+                <i class="fa fa-cog fa-2x" id="cog"></i>
+            </div>
+            <ul class="otherinfos">
+                <li class="otherinfo__post">
+                    <span class="otherinfos__post">312</span>
+                    <span class="otherinfos__post1">posts</span>
+                </li>
+                <li class="otherinfo__likes">
+                    <span class="otherinfos__likes">4829</span>
+                    <span class+"otherinfos__likes1">likes</span>
+                </li>
+                <li class="otherinfo__followings">
+                    <span class="otherinfos__followings">482</span>
+                    <span class="otherinfos__followings">followings</span>
+                </li>
+            </ul>
+            <p class="profile__bio">
+                <span class="profile__full-name">dorky but no harmful</span>
+            </p>
+
+            
+        </div>         
         </main>
         <footer>
             <nav class="footer__nav">
                 <ul class="footer__list">
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
-                    <li class="footer__item"><a href="" class="footer__link"></a></li>
+                    <li class="footer__item"><a href="" class="footer__link">ABOUT US</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">SUPPORT</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">BLOG</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">PRESS</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">API</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">JOBS</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">PRIVACY</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">TERMS</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">DIRECTORY</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">LANGUAGE</a></li>
                 </ul>
             </nav>
-            <span class="footer__copyright">c instagram</span>
+            <span class="footer__copyright"> 2017 INSTAGRAM</span>
         
 
         </footer>
