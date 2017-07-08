@@ -1,0 +1,22 @@
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	width: 90%;
+	font-weight: 700;
+	margin: 55px auto;
+}
+.footer__list{
+	display: flex;
+	list-style: none;
+}
+.footer__item{
+	margin-right: 16px;
+}
+.footer__link{
+    color:#345E87;
+}
+.footer__copyright{
+    color:#999;
+}

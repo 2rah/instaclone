@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Practice</title>
+	<style>
+		html,
+		body{
+			height: 100%
+		}
+		body{
+			margin:0;
+		}
+		.father{
+			
+			background-color:blue;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 100%;
+
+		}
+		.child{
+			height:250px;
+			width:20%;
+			background-color:red;
+			color: white;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		#one{
+			align-self: flex-start;
+		}
+		#three{
+			align-self: flex-end;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="child" id="one">
+		<div>1</div>
+		</div>
+		<div class="child">
+		<div>1</div>
+		</div>
+		<div class="child" id="three">
+		<div>1</div>
+		</div>
+	</div>
+	
+</body>
+</html>
