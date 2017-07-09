@@ -7,15 +7,26 @@
 	}
 .photo{
 	background-color: white;
-	width: 600px;
+	max-width: 600px;
 	margin-top: 50px;
 	
 }
+
 .photo__avatar{
 	height: 30px;
     width: 30px;
 	border-radius: 50%;
+	animation: 1.5s martinaRotates infinite linear
 }
+@keyframes martinaRotates{
+	from{
+		transform: rotate(0turn);
+	}
+	to{
+		transform: rotate(1turn)
+	}
+}
+
 .photo__header{
 	display: flex;
 	align-items: center;
@@ -41,12 +52,63 @@
 }
 .photo__actions i{
 	margin-right: 10px;
+	margin-bottom: 5px;
 }
+
+.photo__likes {
+	margin:5px 0;
+	display: block;
+}
+
+.photo__add-comment{
+	width: 95%;
+	box-sizing: border-box;	
+	resize: none;
+
+}
+.photo__add-comment-container textarea{
+	
+}
+
+
+
+
+
 .photo__add-comment-container{
 	position: relative;
-	box-sizing: border-box;
+	
+
 }
 .photo__add-comment-container i{
 	position: absolute;
+	top:10px;
+}
+.fa-heart-o{
+	animation: .3s pump infinite linear;
 }
 
+@keyframes pump{
+	from{
+		transform: none;
+	}
+	to{
+		transform: scale(2.2,2.2);
+	}
+}
+
+.photo__comment-author{
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.photo__comment{
+	margin:5px 0;
+}
+.photo__date{
+	margin:7px 0;
+	display: block;
+}
+
+.photo__add-comment:focus{
+	outline: none;
+}
