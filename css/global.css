@@ -13,7 +13,7 @@ main{
     margin-top: 60px;
     animation: 10s fadeMain infinite linear;
 }
-@keyframes fadeMain{
+/* @keyframes fadeMain{
 	0%{
 		transform: none;
 		opacity: 0;
@@ -25,7 +25,7 @@ main{
 		transform: translateY(70px);
 		opacity: 1;
 	}
-}
+} */
 
 a {
     color:#003569;
