@@ -83,8 +83,9 @@
 	position: absolute;
 	top:10px;
 }
-.fa-heart-o{
-	animation: .3s pump infinite linear;
+.fa-heart{
+	animation: .5s pump infinite linear;
+	color:red;	
 }
 
 @keyframes pump{
